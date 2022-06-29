@@ -1,4 +1,4 @@
-## Bookstore
+## Space-Travelers-Hub
 This is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions
 
 ![screenshot](coming soon)
@@ -15,8 +15,8 @@ This is a web application for a company that provides commercial and scientific 
 
 ### Setup
 ~~~ 
-git clone git@github.com:smart1-hub/bookstore.git
-cd bookstore
+git clone https://github.com/yusufnviiri/capsreact
+cd capsreact
 
 ~~~
 - install project dependencies
@@ -44,7 +44,8 @@ Code editor: Vscode or any other code editor
 
 - LinkedIn: [Ademola Adebayo](https://www.linkedin.com/in/ademola-adebayo-81051578/)
 
-👤 ** Yusuf Nviiri**
+👤 **Yusuf Nviiri**
+
 - GitHub: [@yusufnviiri](https://github.com/yusufnviiri)
 
 - Twitter: [@YNviiri](https://twitter.com/YNviiri)
