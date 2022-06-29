@@ -38,7 +38,7 @@ Code editor: Vscode or any other code editor
 
 👤 **Ademola Adebayo**
 
-- Github: [@Ademola](https://github.com/Smart1-hub)
+- Github: [@Smart1-hub](https://github.com/Smart1-hub)
 
 - Twitter: [@ademola_adebayo](https://twitter.com/ademola_adebayo)
 
@@ -46,7 +46,9 @@ Code editor: Vscode or any other code editor
 
 👤 ** Yusuf Nviiri**
 - GitHub: [@yusufnviiri](https://github.com/yusufnviiri)
+
 - Twitter: [@YNviiri](https://twitter.com/YNviiri)
+
 - LinkedIn: [yusufnviiri]( https://www.linkedin.com/in/yusuf-nviiri-8b4146206/)
 
 ## Acknowledgement
