@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+## Bookstore
+This is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![screenshot](coming soon)
 
-## Available Scripts
+## Built With
 
-In the project directory, you can run:
+- React
+- Redux
+- Github
 
-### `npm start`
+## Live Link
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Live Link](coming soon)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Setup
+~~~ 
+git clone git@github.com:smart1-hub/bookstore.git
+cd bookstore
 
-### `npm test`
+~~~
+- install project dependencies
+```
+npm install
+```
+- start project
+```
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Environment Prerequisites
 
-### `npm run build`
+Web Browser
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Code editor: Vscode or any other code editor
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Authors
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+👤 **Ademola Adebayo**
 
-### `npm run eject`
+- Github: [@Ademola](https://github.com/Smart1-hub)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Twitter: [@ademola_adebayo](https://twitter.com/ademola_adebayo)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- LinkedIn: [Ademola Adebayo](https://www.linkedin.com/in/ademola-adebayo-81051578/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+👤 ** Yusuf Nviiri**
+- GitHub: [@yusufnviiri](https://github.com/yusufnviiri)
+- Twitter: [@YNviiri](https://twitter.com/YNviiri)
+- LinkedIn: [yusufnviiri]( https://www.linkedin.com/in/yusuf-nviiri-8b4146206/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Acknowledgement
 
-## Learn More
+- Microvers Org.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions, issues, and feature requests are welcome!
 
-### Code Splitting
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Give a ⭐ if you like this project and how it is built!
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📝 License
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](https://github.com/microverseinc/readme-template/blob/master/MIT.md) licensed.
