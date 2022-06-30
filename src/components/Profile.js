@@ -7,10 +7,11 @@ const Profile = () => {
   const myMissions = missions.filter((mission) => mission.reserved === true);
 
   return (
-    <div>
-     
-      <h2>My Missions</h2>
-      <ProfileMissionCard myMissions={myMissions} />
+    <div className="container my_profil">
+      <div className="side_card">
+        <h2>My Missions</h2>
+        <ProfileMissionCard myMissions={myMissions} />
+      </div>
     </div>
   );
 };

@@ -12,10 +12,9 @@ const Missions = () => {
   }, [ ]);
 
   return (
-    <div>
-      <h2>MISSIONS</h2>
-      <table>
-        <thead>
+    <div className="container">
+      <table className="table table-striped table-bordered">
+        <thead className="table-mission-head">
           <th>Mission</th>
           <th>Description</th>
           <th>Status</th>
