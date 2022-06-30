@@ -14,7 +14,7 @@ export const fetchMissions = () => async (dispatch) => {
   const missions = [];
 
   data.forEach((mission) => {
-      mission.push({
+      missions.push({
         mission_id: mission.mission_id,
         mission_name: mission.mission_name,
         description: mission.description,

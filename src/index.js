@@ -12,7 +12,7 @@ root.render(
   <Provider store={store}>
     <Router>
       <React.StrictMode>
-        <Navbar />
+        
         <App />
       </React.StrictMode>
     </Router>
