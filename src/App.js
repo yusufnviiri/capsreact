@@ -1,15 +1,19 @@
-
+import { Routes, Route } from 'react-router-dom';
+import './App.css';
+import Missions from './components/ProfileRocketCard';
+import NoMatch from './components/NoMatch';
+import Profile from './components/ProfileMissionCard';
+import Rockets from './components/Rockets';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello Adebayo My bro</h1>
-
-    <p>Please add the README file</p>
-    <p>I have created the (set-up branch ) and done all installations there</p>
-    <h3>Let me go for lunch......Am available on whatsapp</h3>
-    </div>
+    <Routes>
+      <Route path="/" element={<Rockets />} />
+      <Route path="/missions" element={<Missions />} />
+      <Route path="/my-profile" element={<Profile />} />
+      <Route path="/*" element={<NoMatch />} />
+    </Routes>
   );
 }
-
+    
 export default App;
