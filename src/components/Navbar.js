@@ -1,10 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import logos from '../images/planet.png';
 
 const Navbar = () => (
   <nav className="dflex">
     <div className="navLogo dflex">
-      <img src={logo} alt="" />
+    
       <h3>Space Travelers&apos; Hub</h3>
     </div>
     <ul className="dflex">
