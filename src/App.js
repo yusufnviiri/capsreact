@@ -1,14 +1,11 @@
 import { Routes, Route } from 'react-router-dom';
-import './App.css';
-import Missions from './components/ProfileRocketCard';
+import Missions from './components/Missions';
 import NoMatch from './components/NoMatch';
-import Profile from './components/ProfileMissionCard';
-import Rockets from './components/Rockets';
+import Profile from './components/Profile';
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Rockets />} />
       <Route path="/missions" element={<Missions />} />
       <Route path="/my-profile" element={<Profile />} />
       <Route path="/*" element={<NoMatch />} />
