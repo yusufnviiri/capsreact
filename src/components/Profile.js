@@ -15,13 +15,21 @@ const Profile = () => {
       </div>
       <div className="side_card">
         <h2>My Rockets</h2>
+
+        <table className="profil_Table">
+        <tbody>
         {arr1.map((rocket) => {
         return (
-          <div key={rocket.id} className="rocketData">
-            <h2>{rocket.rocket_name}</h2>
-          </div>
+         <tr key={rocket.id}>
+            <td>{rocket.rocket_name}</td>
+            </tr>
+         
         );
-      })}      </div>
+      })}  
+      </tbody>
+  </table>
+  
+          </div>
     </div>
   );
 };

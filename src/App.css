@@ -1,5 +1,7 @@
 .dflex {
   display: flex;
+  color: rgb(83, 88, 94);
+ 
 }
 
 nav {
@@ -8,13 +10,18 @@ nav {
   padding: 5px 20px;
   border-bottom: 1px solid #545454;
   margin-bottom: 45px;
+  font-size: 1.6em;
 }
 
 a {
   text-decoration: none !important;
-  color: #5151fe !important;
+  color: rgb(24,135,255) !important;
+
 }
 
+.navLinkLast {
+border-left: 2px solid rgb(43,47,51);
+padding-left: 20px;}
 .navLogo {
   align-items: center;
   justify-content: start;
@@ -31,10 +38,12 @@ nav ul {
   align-items: center;
   justify-content: space-around;
   gap: 16px;
+  font-size: medium;
 }
 
 nav ul li {
   list-style: none;
+  
 }
 
 nav a.active {
@@ -112,6 +121,12 @@ nav a.active {
 
 .t-row {
   align-items: center;
+
+}
+.missionBody{
+  padding-bottom: 300px;
+
+  
 }
 
 .td-name {

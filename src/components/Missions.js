@@ -20,7 +20,7 @@ const Missions = () => {
           <th>Status</th>
           <th> </th>
         </thead>
-        <tbody>
+        <tbody className='missionBody'>
           {
               missions.map((mission) => (
                 <MissionCard key={mission.mission_id} mission={mission} />

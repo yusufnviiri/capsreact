@@ -45,11 +45,9 @@ function RocketsShow() {
     }
 
   return (
-    <div className="allRock">
-        {    
-        console.log(reserved)
-}
-      <h1>Space Traveler's Hub </h1>
+    <div className="allRockets">
+  
+      
       {rockets.map((rocket) => {
         return (
           <div key={rocket.id} className="rocketData">
@@ -58,8 +56,8 @@ function RocketsShow() {
               {" "}
               <img
                 style={{
-                  height: "100px",
-                  width: "100px",
+                  height: "100%",
+                  width: "100%",
                   margin: "auto",
                   display: "block",
                 }}
@@ -90,7 +88,7 @@ function RocketsShow() {
               </button>
               <button
                 type="button"
-                className="rockBtn"
+                className="cancelBtn"
                 onClick={() => cancelReservation(rocket)}
                 style={{ display: rocket.reserved ? "inline-block" : "none" }}
               >
