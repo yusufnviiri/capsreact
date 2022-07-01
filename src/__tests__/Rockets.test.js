@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 import { render, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import store from '../redux/configureStore';
-import Rockets from '../components/Rockets';
+import Rockets from '../redux/rockets/rockets';
 
 describe('Rocket Element Tests', () => {
   test('Check if Rockets Component Renders in DOM porperly', () => {
