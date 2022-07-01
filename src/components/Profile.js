@@ -7,24 +7,21 @@ const Profile = () => {
   //fetch reserved rockets from local storage
   let arr = localStorage.getItem("reserved");
   let arr1 = JSON.parse(arr);
-
   return (
-    <div>
-     <div>
-      <h2>My Missions</h2>
-      <ProfileMissionCard myMissions={myMissions} />
+    <div className="container my_profil">
+      <div className="side_card">
+        <h2>My Missions</h2>
+        <ProfileMissionCard myMissions={myMissions} />
       </div>
-      <div>
-      <h1>Rockets </h1>
-
-      {arr1.map((rocket) => {
+      <div className="side_card">
+        <h2>My Rockets</h2>
+        {arr1.map((rocket) => {
         return (
           <div key={rocket.id} className="rocketData">
             <h2>{rocket.rocket_name}</h2>
           </div>
         );
-      })}
-    </div>
+      })}      </div>
     </div>
   );
 };

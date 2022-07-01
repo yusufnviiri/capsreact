@@ -1,8 +1,8 @@
-import { Routes, Route } from 'react-router-dom';
-import Missions from './Missions';
-import NoMatch from './NoMatch';
-import Profile from './Profile';
-import RocketsShow from '../redux/rockets/ShowRockets';
+import { Routes, Route } from "react-router-dom";
+import Missions from "./Missions";
+import NoMatch from "./NoMatch";
+import Profile from "./Profile";
+import RocketsShow from "../redux/rockets/ShowRockets";
 
 function Wrapper() {
   return (
@@ -14,5 +14,5 @@ function Wrapper() {
     </Routes>
   );
 }
-    
+
 export default Wrapper;
