@@ -6,11 +6,17 @@ import { toggleMission } from '../../redux/missions/missionsReducer';
 const MissionCard = ({ mission }) => {
   const dispatch = useDispatch();
   return (
-    <tr>
-      <td>{mission.mission_name}</td>
-      <td>{mission.description}</td>
-      <td>{mission.reserved ? <span>Active Member</span> : <span>Not a member</span> }</td>
-      <td><button type="button" onClick={() => dispatch(toggleMission(mission.mission_id))}>{(mission.reserved ? 'Leave Mission' : 'Join Mission')}</button></td>
+    <tr className="t-row">
+      <td className="td-name">{mission.mission_name}</td>
+      <td className="td-description">{mission.description}</td>
+      <td className="td-status">{mission.reserved ? <span className="td-active">Active Member</span> : <span className="td-not-active">NOT A MEMBER</span> }</td>
+      <td className="td-action">
+        {(
+          mission.reserved
+            ? <button className="td-leave" type="button" onClick={() => dispatch(toggleMission(mission.mission_id))}>Leave Mission</button>
+            : <button className="td-join" type="button" onClick={() => dispatch(toggleMission(mission.mission_id))}>Join Mission</button>
+        )}
+      </td>
     </tr>
   );
 };
