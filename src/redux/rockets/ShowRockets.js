@@ -21,8 +21,7 @@ function RocketsShow() {
  
   useEffect(() => {
     localStorage.setItem("reserved", JSON.stringify(reserved));
-    // let arr=localStorage.getItem("rockets");
-    // console.log(arr);
+   
     }
     , [rockets]);
 
@@ -34,13 +33,10 @@ function RocketsShow() {
 
   };
 
-  let arr=localStorage.getItem("rockets");
-  let arr1=JSON.parse(arr);
     const cancelReservation = (rocket) => {
         dispatch(cancelReservationAsync(rocket));
         setReserved(reserved.filter((res) => res.id !== rocket.id));
        
-// console.log(rocket.rocket_name);
         
     }
 

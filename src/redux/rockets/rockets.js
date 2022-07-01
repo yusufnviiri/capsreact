@@ -20,12 +20,7 @@ export const fetchRockets = (rocketData) => {
     payload: rocketData,
   };
 };
-export const fetchMissions = () => {
-  return {
-    type: "FETCH_MISSIONS",
-    payload: "missionData",
-  };
-};
+
 
 export const fetchRocketsAsync = () => {
   return (dispatch) => {

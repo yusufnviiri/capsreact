@@ -1,71 +1,81 @@
-body{
+body {
   font-family: sans-serif;
 }
-.rocketData{
+
+.rocketData {
   display: flex;
   flex-direction: row;
-margin-top: 10px;
-padding-bottom: 10px;
+  margin-top: 10px;
+  padding-bottom: 10px;
 }
-.rocketData p,.rocketData h2{
+
+.rocketData p,
+.rocketData h2 {
   margin: 0;
   padding: 0;
 }
-.rocketImg{
-margin-right: 20px;
-width: 30%;
+
+.rocketImg {
+  margin-right: 20px;
+  width: 30%;
 }
-.rocketOtherDetails{
-  width: 70%;  
+
+.rocketOtherDetails {
+  width: 70%;
 }
-.rocketOtherDetails p{
- margin-bottom: 20px;
- font-size: large;
+
+.rocketOtherDetails p {
+  margin-bottom: 20px;
+  font-size: large;
 }
-.rocketOtherDetails h2{
+
+.rocketOtherDetails h2 {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-.reserve{
-  color:white;
+.reserve {
+  color: white;
   background-color: green;
   padding: 3px 5px 2px 5px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 5px;
 }
-.allRockets{
+
+.allRockets {
   height: 100%;
   width: 90%;
   margin: auto;
 }
 
-.showReserved h2{
+.showReserved h2 {
   padding: 0;
   margin: 0;
   font-size: 15px;
 }
-.rockBtn{
-  background-color: rgb(0,123,255);
+
+.rockBtn {
+  background-color: rgb(0, 123, 255);
   color: white;
   border: 1px solid #d1d1d1;
   font-size: 20px;
   font-weight: 300;
-  padding: 10px 15px ;
+  padding: 10px 15px;
   border-radius: 5px;
   width: 30%;
 }
-.cancelBtn{
+
+.cancelBtn {
   background-color: white;
-  color: rgb(110,118,126);
+  color: rgb(110, 118, 126);
   border-right: 3px solid #b3b0b0;
   border-top: 3px solid #b3b0b0;
   border-left: 3px solid #b3b0b0;
   border-bottom: 0.1px solid #d1d1d1;
   font-size: 20px;
   font-weight: 300;
-  padding: 10px 10px ;
+  padding: 10px 10px;
   border-radius: 5px;
   width: 30%;
 }

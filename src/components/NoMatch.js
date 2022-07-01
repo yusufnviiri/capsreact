@@ -2,7 +2,7 @@ import React from 'react';
 
 const NoMatch = () => (
   <div>
-    <h2>This route match with any page ! </h2>
+    <h2>Page not found........Check the URL </h2>
   </div>
 );
 

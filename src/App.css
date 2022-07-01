@@ -1,7 +1,6 @@
 .dflex {
   display: flex;
   color: rgb(83, 88, 94);
- 
 }
 
 nav {
@@ -15,13 +14,14 @@ nav {
 
 a {
   text-decoration: none !important;
-  color: rgb(24,135,255) !important;
-
+  color: rgb(24, 135, 255) !important;
 }
 
 .navLinkLast {
-border-left: 2px solid rgb(43,47,51);
-padding-left: 20px;}
+  border-left: 2px solid rgb(43, 47, 51);
+  padding-left: 20px;
+}
+
 .navLogo {
   align-items: center;
   justify-content: start;
@@ -43,7 +43,6 @@ nav ul {
 
 nav ul li {
   list-style: none;
-  
 }
 
 nav a.active {
@@ -121,12 +120,10 @@ nav a.active {
 
 .t-row {
   align-items: center;
-
 }
-.missionBody{
-  padding-bottom: 300px;
 
-  
+.missionBody {
+  padding-bottom: 300px;
 }
 
 .td-name {
