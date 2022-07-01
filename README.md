@@ -13,6 +13,10 @@ This is a web application for a company that provides commercial and scientific 
 
 [Live Link](coming soon)
 
+## Presentation
+
+[See the link](https://drive.google.com/file/d/1pAzPAxzgB9QP_44-cvdMhVxV8M4ChGlU/view?usp=sharing)
+
 ### Setup
 ~~~ 
 git clone https://github.com/yusufnviiri/capsreact
