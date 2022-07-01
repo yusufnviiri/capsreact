@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display missions element renders properly 1`] = `
+<div
+  className="container my_profil"
+>
+  <div
+    className="side_card"
+  >
+    <h2>
+      My Rockets
+    </h2>
+    <table
+      className="profil_Table"
+    >
+      <tbody />
+    </table>
+  </div>
+  <div
+    className="side_card"
+  >
+    <h2>
+      My Missions
+    </h2>
+    <table
+      className="profil_Table"
+    >
+      <tbody />
+    </table>
+  </div>
+</div>
+`;
