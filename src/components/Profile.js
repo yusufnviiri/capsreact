@@ -4,9 +4,13 @@ import ProfileMissionCard from './pages/ProfileMissionCard';
 const Profile = () => {
   const missions = useSelector((state) => state.missions);
   const myMissions = missions.filter((mission) => mission.reserved === true);
-  //fetch reserved rockets from local storage
-  let arr = localStorage.getItem("reserved");
-  let arr1 = JSON.parse(arr);
+  //fetch reserved rockets 
+  let rockets = useSelector((state) => state.rockets);
+  const reserved = rockets.filter((rocket) => rocket.reserved !== true);
+
+
+
+ 
   return (
     <div className="container my_profil">
       <div className="side_card">
@@ -18,7 +22,7 @@ const Profile = () => {
 
         <table className="profil_Table">
         <tbody>
-        {arr1.map((rocket) => {
+        {reserved.map((rocket) => {
         return (
          <tr key={rocket.id}>
             <td>{rocket.rocket_name}</td>
