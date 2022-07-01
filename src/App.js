@@ -1,6 +1,7 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import Wrapper from "./components/Container";
+import React from 'react';
+import Navbar from './components/Navbar';
+import Wrapper from './components/Container';
+
 function App() {
   return (
     <div>
@@ -9,5 +10,5 @@ function App() {
     </div>
   );
 }
-    
+
 export default App;

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const ProfileMissionCard = ({ myMissions }) => (
-  
+
   <table className="profil_Table">
     <tbody>
       {

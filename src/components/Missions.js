@@ -9,7 +9,7 @@ const Missions = () => {
 
   useEffect(() => {
     dispatch(fetchMissions());
-  }, [ ]);
+  }, []);
 
   return (
     <div className="container">
@@ -20,7 +20,7 @@ const Missions = () => {
           <th>Status</th>
           <th> </th>
         </thead>
-        <tbody className='missionBody'>
+        <tbody className="missionBody">
           {
               missions.map((mission) => (
                 <MissionCard key={mission.mission_id} mission={mission} />
