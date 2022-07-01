@@ -1,0 +1,179 @@
+.dflex {
+  display: flex;
+  color: rgb(83, 88, 94);
+}
+
+nav {
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 20px;
+  border-bottom: 1px solid #545454;
+  margin-bottom: 45px;
+  font-size: 1.6em;
+}
+
+a {
+  text-decoration: none !important;
+  color: rgb(24, 135, 255) !important;
+}
+
+.navLinkLast {
+  border-left: 2px solid rgb(43, 47, 51);
+  padding-left: 20px;
+}
+
+.navLogo {
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+
+.navLogo img {
+  width: 70px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 16px;
+  font-size: medium;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav a.active {
+  text-decoration: underline !important;
+}
+
+.rocket_card {
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.rocket_details {
+  width: 65%;
+  font-size: 14px;
+  padding: 20px 0;
+}
+
+.rocket_details h3 {
+  font-size: 20px;
+}
+
+.rocket_card img {
+  width: 220px;
+}
+
+.rocket_details .cancel_btn {
+  padding: 5px 15px;
+  background: white;
+  border: 1px solid #545454;
+  border-radius: 5px;
+  color: #545454;
+}
+
+.rocket_details .reserve_btn {
+  padding: 5px 15px;
+  background: #5151fe;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.reserve_badge {
+  font-size: 10px;
+  color: white;
+  background: #42a3b8;
+  margin-right: 5px;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.my_profil {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.profil_Table {
+  width: 100% !important;
+}
+
+.side_card {
+  width: 40%;
+}
+
+.profil_Table tr {
+  border: 1px solid #545454;
+}
+
+.profil_Table td {
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+.t-row {
+  align-items: center;
+}
+
+.missionBody {
+  padding-bottom: 300px;
+}
+
+.td-name {
+  width: 12%;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.td-description {
+  width: 55%;
+  font-size: 15px;
+}
+
+.td-status,
+.td-action {
+  width: 10%;
+  text-align: center;
+}
+
+.td-active {
+  background: #42a3b8;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 6px 6px;
+  text-align: center;
+}
+
+.td-not-active {
+  background: #545454;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 6px 6px;
+}
+
+.td-leave {
+  background-color: #fff;
+  border: 1px solid #f54747;
+  color: #f54747;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 6px 6px;
+}
+
+.td-join {
+  background-color: #fff;
+  border: 1px solid #888;
+  color: #555;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 6px 6px;
+}
