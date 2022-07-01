@@ -14,13 +14,16 @@ const Missions = () => {
   return (
     <div className="container">
       <table className="table table-striped table-bordered">
-        <thead className="table-mission-head">
-          <th>Mission</th>
-          <th>Description</th>
-          <th>Status</th>
-          <th> </th>
+        <thead>
+          <tr className="table-mission-head">
+            <th>Mission</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th> </th>
+
+          </tr>
         </thead>
-        <tbody className="missionBody">
+        <tbody>
           {
               missions.map((mission) => (
                 <MissionCard key={mission.mission_id} mission={mission} />

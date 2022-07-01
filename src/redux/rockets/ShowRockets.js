@@ -32,7 +32,7 @@ function RocketsShow() {
   };
 
   return (
-    <div className="allRockets">
+    <div className="container">
 
       {rockets.map((rocket) => (
         <div key={rocket.id} className="rocketData">

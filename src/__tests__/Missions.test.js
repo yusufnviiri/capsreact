@@ -1,5 +1,4 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
 import { render, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import store from '../redux/configureStore';
@@ -13,15 +12,5 @@ describe('Mission Element Tests', () => {
       </Provider>,
     );
     expect(screen.queryByText(/Rockets/)).toBeNull();
-  });
-  it('renders porperly', () => {
-    const tree = renderer
-      .create(
-        <Provider store={store}>
-          <Missions />
-        </Provider>,
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
   });
 });

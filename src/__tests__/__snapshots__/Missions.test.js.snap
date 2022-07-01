@@ -25,6 +25,7 @@ exports[`Mission Element Tests renders porperly 1`] = `
         </th>
       </tr>
     </thead>
+   
     <tbody />
   </table>
 </div>
